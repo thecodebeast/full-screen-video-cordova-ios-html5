@@ -1,0 +1,122 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+#splash-video{
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+
+}
+.splash-page p{
+    color: #cecece;
+}
+.splash-page-logo{
+    text-align: center;
+    margin-top: 0px;
+}
+.splash-page-logo img{
+    margin-top: 50px;
+    width: 25%;
+}
+.splash-page-keynotes{
+    text-align: center;
+    padding-top: 95px;
+    width: 80%;
+    margin: 0 auto;
+}
+.keynote-carousel .item p{
+    font-family: 'Lato', sans-serif;
+    color: #cecece;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.keynote-carousel .item h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #fff;
+}
+.owl-theme .owl-dots .owl-dot span{
+    width: 7px;
+    height: 7px;
+    background-color: #cecece;
+    opacity: .5;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+    background-color: #fff;
+    opacity: 1;
+}
+.owl-dots{
+    margin-top: 25px!important;
+}
+.splash-page-footer{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer-section{
+    margin-left: 25px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+}
+.button {
+    border: 1px solid #007aff;
+    color: #007aff;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+    line-height: 27px;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    background: 0 0;
+    padding: 0 10px;
+    margin: 0;
+    height: 29px;
+    white-space: nowrap;
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    font-family: inherit;
+    cursor: pointer;
+    outline: 0;
+}
+.orange-btn {
+    background-color: #e67755!important;
+    border-color: #e67755!important;
+}
+.button.button-round {
+    border-radius: 27px;
+}
+.button.active {
+    background: #007aff;
+    color: #fff;
+}
+.button.button-big {
+    font-size: 17px;
+    height: 44px;
+    line-height: 42px;
+}
+.white-btn {
+    background-color: #fff!important;
+    border-color: #fff!important;
+    color: #1a1a1a!important;
+}
+.already-user {
+    font-size: 12px;
+    padding-top: 8px;
+    line-height: 0px;
+    color: #cecece;
+}
